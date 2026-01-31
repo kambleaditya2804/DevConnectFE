@@ -5,6 +5,6 @@
 ## Tech Stack
 - **Frontend:** React.js, Vite, Tailwind CSS  
 - **State Management:** Redux Toolkit  
-- **Backend:** [DevConnect Backend](https://github.com/AdityaKambleV/DevConnect-backend)  
+- **Backend:** [DevConnect Backend](https://github.com/AdityaKambleV/DevConnectBE)  
 - **Authentication:** JWT-based login and signup  
 - **Database:** MongoDB (handled by backend)
