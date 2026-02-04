@@ -134,6 +134,31 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link
+                      to="/premium"
+                      className="flex items-center gap-3 hover:bg-gray-700 rounded-md p-2 transition-colors duration-200"
+                      onClick={() => setDropdownOpen(false)}
+                    >
+                      {/* Premium Icon */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="w-5 h-5 text-purple-400"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z"
+                        />
+                      </svg>
+                      Premium
+                    </Link>
+                  </li>
+
+                  <li>
                     <button
                       onClick={handleLogout}
                       className="text-red-500 hover:text-red-400 hover:bg-gray-700 w-full p-2 rounded-md transition-colors duration-200"

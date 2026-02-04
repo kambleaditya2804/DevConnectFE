@@ -8,6 +8,7 @@ import Feed from "./Components/Feed";
 import Connections from "./Components/Connections";
 import Requests from "./Components/Requests";
 import About from "./Components/About";
+import Premium from "./Components/Premium";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
               <Route path="/connections" element={<Connections />} />
               <Route path="/requests" element={<Requests />} />
               <Route path="/about" element={<About />} />
+              <Route path="/premium" element={<Premium/>}> </Route>
             </Route>
           </Routes>
         </BrowserRouter>
