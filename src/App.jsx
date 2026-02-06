@@ -9,6 +9,7 @@ import Connections from "./Components/Connections";
 import Requests from "./Components/Requests";
 import About from "./Components/About";
 import Premium from "./Components/Premium";
+import Chat from "./Components/Chat";
 function App() {
   return (
     <>
@@ -22,7 +23,10 @@ function App() {
               <Route path="/connections" element={<Connections />} />
               <Route path="/requests" element={<Requests />} />
               <Route path="/about" element={<About />} />
-              <Route path="/premium" element={<Premium/>}> </Route>
+              <Route path="/premium" element={<Premium/>}> 
+              {/* <Route  path="chat/:targetUserId" element={<Chat/>} /> */}
+              </Route>
+              <Route  path="/chat/:targetUserId" element={<Chat/>} />
             </Route>
           </Routes>
         </BrowserRouter>
